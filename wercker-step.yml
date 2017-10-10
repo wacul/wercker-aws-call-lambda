@@ -1,0 +1,21 @@
+name: aws-lambda-invoke
+version: 0.1.0
+description: aws lambda invoke
+keywords:
+  - aws-lambda
+properties:
+  key:
+    type: string
+    required: true
+  secret:
+    type: string
+    required: true
+  region:
+    type: string
+    required: true
+  function-name:
+    type: string
+    required: true
+  payload:
+    type: string
+    required: true
