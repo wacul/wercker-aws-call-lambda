@@ -1,5 +1,5 @@
-name: aws-lambda-invoke
-version: 0.1.1
+name: lambda-invoke
+version: 0.1.2
 description: aws lambda invoke
 keywords:
   - aws-lambda
