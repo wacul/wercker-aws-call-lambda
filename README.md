@@ -11,7 +11,8 @@ deploy:
         secret: $AWS_SECRET_ACCESS_KEY
         region: $AWS_DEFAULT_REGION
         function-name: function
-        payload: payload
+        payload: >-
+          {"pay":"load"}
 ```
 
 
